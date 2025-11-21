@@ -2,16 +2,27 @@
 Allows you to connect to the ecu of the car to obtain SOC, BATTERIES VOLTAGE and STATE OF CHARGE informations. I suggest you to make a simple change to deliver the data to your server or to Home Assistant (personally i prefer Tinytuja).
 This project is not for everybody, it's mainly for developers: lots of times with tecnology we can just try and see if it works or not, but i don t suggest you to test this project on your car if you don t know what you are doing.
 
+<img width="500" height="375" alt="immagine" src="https://github.com/user-attachments/assets/51d80612-8e16-491c-a9d5-177f69f21667" />
+
+# Output
+
+Connected to OBD2 adapter on COM5
+
+    Sending: 220105
+    >
+    Parsed Data: {'SOC_DISPLAY': 39.5, 'SOH': 100.0}
+    Sending: 220101
+    >
+    Parsed Data: {'SOC_BMS': 38.0, 'DC_BATTERY_VOLTAGE': 356.7}
+
+Process finished with exit code 0
+
 # Dependencies
 pip3 install pyserial
 
 # Usage
 - Connect to your device and identify witch port is using (useually in windows it's COM5 or COM6 and in linux it is usually /dev/rfcomm0)
 - Run the main.py
-
-
-<img width="500" height="375" alt="immagine" src="https://github.com/user-attachments/assets/51d80612-8e16-491c-a9d5-177f69f21667" />
-
 
 
 # My hardware
