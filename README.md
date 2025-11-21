@@ -24,23 +24,23 @@ Process finished with exit code 0
 - Connect to your device and identify witch port is using (useually in windows it's COM5 or COM6 and in linux it is usually /dev/rfcomm0)
 - Run the main.py
 
-
 # My hardware
 In order to use this project you will need:
 - A hyundai Kona (~2020) or a hyundai Kia niro (kona and kia niro seems to use the same protocol i need to check the exact model of my car )
 - An obd2 elm serial bluetooth chip that supports EV ecu (not all supports it). There are plenty of discussion about the "good" and the "bad" OBD, onestly i don t care and bought the cheapest one from aliexpress (photo) and it worked but remember that the OBD needs to be BLUETOOTH SERIAL!!! The use of the software is at your own risk. I am not liable for damage caused by improper use or cheap, fake OBD2 dongle.
 - A windows or linux pc with bluez installed (mac os sucks with bluez, good luck setting it up)
 
-
 <img width="600" height="400" alt="immagine" src="https://github.com/user-attachments/assets/b843a3ee-ab34-4eea-ab8a-98c80fedf239" />
 
+# Known facts
+- the car seems to keep the obd running only when turned on or during charge (need to check for edge cases like soc 100% but still plugged)
+- the device sometimes responds with NO DATA while charging, the solution seems to reconnect (problem found from EV notify github issues and happened to me only once)
 
 There are other resources that helped me a lot in this project like EVNotify inspired me first in this hard journey or the recent project niro-spy that gave me the willingness of sharing
 https://github.com/EVNotify/EVNotify/ 
 https://github.com/Tuoris/niro-spy
 https://github.com/OBDb/Hyundai-Kona-Electric
 https://github.com/JejuSoul/OBD-PIDs-for-HKMC-EVs
-
 
 # Similiar projects
 https://github.com/nickn17/evDash
@@ -50,12 +50,6 @@ https://github.com/Tuoris/elm-dashboard
 
 # My projects
 https://github.com/rabdo-alter-ego/kona-serial-obd/
-
-
-# Known facts
-- the car seems to keep the obd running only when turned on or during charge (need to check for edge cases like soc 100% but still plugged)
-- the device sometimes responds with NO DATA while charging, the solution seems to reconnect (problem found from EV notify github issues and happened to me only once)
-
 
 
 
