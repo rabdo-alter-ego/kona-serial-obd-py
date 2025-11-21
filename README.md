@@ -37,19 +37,19 @@ In order to use this project you will need:
 - the device sometimes responds with NO DATA while charging, the solution seems to reconnect (problem found from EV notify github issues and happened to me only once)
 
 There are other resources that helped me a lot in this project like EVNotify inspired me first in this hard journey or the recent project niro-spy that gave me the willingness of sharing
-https://github.com/EVNotify/EVNotify/ 
-https://github.com/Tuoris/niro-spy
-https://github.com/OBDb/Hyundai-Kona-Electric
-https://github.com/JejuSoul/OBD-PIDs-for-HKMC-EVs
+- https://github.com/EVNotify/EVNotify/ 
+- https://github.com/Tuoris/niro-spy
+- https://github.com/OBDb/Hyundai-Kona-Electric
+- https://github.com/JejuSoul/OBD-PIDs-for-HKMC-EVs
 
 # Similiar projects
-https://github.com/nickn17/evDash
-https://github.com/cyberelectronics/Konassist
-https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3
-https://github.com/Tuoris/elm-dashboard
+- https://github.com/nickn17/evDash
+- https://github.com/cyberelectronics/Konassist
+- https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3
+- https://github.com/Tuoris/elm-dashboard
 
 # My projects
-https://github.com/rabdo-alter-ego/kona-serial-obd/
+- https://github.com/rabdo-alter-ego/kona-serial-obd/
 
 
 
