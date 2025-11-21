@@ -36,6 +36,7 @@ In order to use this project you will need:
 - the car seems to keep the obd running only when turned on or during charge (need to check for edge cases like soc 100% but still plugged)
 - the device sometimes responds with NO DATA while charging, the solution seems to reconnect (problem found from EV notify github issues and happened to me only once)
 
+# Resources
 There are other resources that helped me a lot in this project like EVNotify inspired me first in this hard journey or the recent project niro-spy that gave me the willingness of sharing
 - https://github.com/EVNotify/EVNotify/ 
 - https://github.com/Tuoris/niro-spy
