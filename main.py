@@ -1,7 +1,7 @@
 import serial
 import time
 
-SERIAL_PORT = "COM5"  # Change to "COMX" on MAC (e.g., "/dev/rfcomm0")
+SERIAL_PORT = "COM5"  # Change to "COMX" on Linux (e.g., "/dev/rfcomm0")
 BAUD_RATE = 115200  # This is assumed; verify for your adapter
 
 # OBD2 Initialization and Query Commands 
