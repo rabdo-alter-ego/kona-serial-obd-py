@@ -18,7 +18,7 @@ Connected to OBD2 adapter on COM5
 Process finished with exit code 0
 
 # Dependencies
-pip3 install pyserial
+    pip3 install pyserial
 
 # Usage
 - Connect to your device and identify witch port is using (useually in windows it's COM5 or COM6 and in linux it is usually /dev/rfcomm0)
